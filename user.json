@@ -58,13 +58,14 @@
     {
       "@id": "suppliedProduct/item3",
       "@type": "dfc-b:SuppliedProduct",
+      "dfc-b:name": "Farmers Eggs",
       "dfc-b:hasQuantity":{
           "@type":"dfc-b:QuantitiveValue",
           "dfc-b:hasUnit":"dfc-m:Gram",
           "dfc-b:value":"1000"
       },
       "dfc-p:hasType": "dfc-pt:egg",
-      "dfc-b:description": "supply description 1",
+      "dfc-b:description": "20 fresh eggs",
       "dfc-b:totalTheoriticalStock": "999",
       "dfc-b:hasBrand": "brand/brandId1",
       "dfc-b:hasCertification": "dfc-f:Organic-AB",
@@ -73,22 +74,38 @@
           "dfc-f:LowSodiumSalt",
           "dfc-f:IncreasedNutrient"
         ],
-      "dfc-b:hasNutrientCharacteristic": {
+      "dfc-b:hasNutrientCharacteristic": [
+        {
           "@type":"dfc-b:NutrientCharacteristic",
           "dfc-b:hasNutrientDimension":"dfc-m:Magnesium",
-          "dfc-b:hasUnit":"dfc-u:Gram",
+          "dfc-b:hasUnit":"dfc-m:Gram",
           "dfc-b:value":"10"
-      },
-      "dfc-b:hasPhysicalCharacteristic": {
+        },
+        {
+          "@type":"dfc-b:NutrientCharacteristic",
+          "dfc-b:hasNutrientDimension":"dfc-m:Salt",
+          "dfc-b:hasUnit":"dfc-m:Gram",
+          "dfc-b:value":"0.01"
+        }
+      ],
+      "dfc-b:hasPhysicalCharacteristic": [
+        {
           "@type":"dfc-b:PhysicalCharacteristic",
           "dfc-b:hasPhysicalDimension":"dfc-m:Weight",
           "dfc-b:hasUnit":"dfc-m:Gram",
           "dfc-b:value":"100"
-      },
+        },
+        {
+          "@type":"dfc-b:PhysicalCharacteristic",
+          "dfc-b:hasPhysicalDimension":"dfc-m:Width",
+          "dfc-b:hasUnit":"dfc-m:Centimetre",
+          "dfc-b:value":"4.5"
+        }
+      ],
       "dfc-b:hasAllergenCharacteristic": {
           "@type":"dfc-b:AllergenCharacteristic",
-          "dfc-b:hasAllergenDimension":"dfc-m:allergenCharacteristic1",
-          "dfc-b:hasUnit":"dfc-m:Allenit1",
+          "dfc-b:hasAllergenDimension":"dfc-m:Eggs",
+          "dfc-b:hasUnit":"dfc-m:Unit",
           "dfc-b:value":"1"
       },
       "dfc-b:hasGeographicalOrigin": "dfc-f:CentreValLoire",
@@ -103,13 +120,14 @@
    {
       "@id": "suppliedProduct/item4",
       "@type": "dfc-b:SuppliedProduct",
+      "dfc-b:name": "Plougastel's Strawberries",
       "dfc-b:hasQuantity":{
           "@type":"dfc-b:QuantitiveValue",
           "dfc-b:hasUnit":"dfc-m:Gram",
           "dfc-b:value":"1000"
       },
       "dfc-p:hasType": "dfc-pt:strawberry",
-      "dfc-b:description": "supply description 2",
+      "dfc-b:description": "Strawberries coming from Andrew's farm.",
       "dfc-b:totalTheoriticalStock": "999",
       "dfc-b:image": "supply image url",
       "dfc-b:lifeTime": "supply lifeTime"
@@ -118,7 +136,7 @@
       "@id": "catalogItem/catalogItemId1",
       "@type": "dfc-b:CatalogItem",
       "dfc-b:references": "/suppliedProduct/item3",
-      "dfc-b:sku": "catalog item gtin or sku",
+      "dfc-b:sku": "4225-776-3234",
       "dfc-b:stockLimitation": "999",
       "dfc-b:offeredThrough": [
           "offer/offerId1",
@@ -128,7 +146,7 @@
     {
       "@id": "catalogItem/catalogItemId2",
       "@type": "dfc-b:CatalogItem",
-      "dfc-b:sku": "catalog item gtin or sku",
+      "dfc-b:sku": "4225-776-3235",
       "dfc-b:stockLimitation": "999",
       "dfc-b:references": "/suppliedProduct/item4",
       "dfc-b:offeredThrough": [
