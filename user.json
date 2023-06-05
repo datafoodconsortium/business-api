@@ -10,7 +10,7 @@
      "@id": "person/personId",
       "@type": "dfc-b:Person",
       "dfc-b:familyName": "Doe",
-      "dfc-b:firstName": "Jhon",
+      "dfc-b:firstName": "John",
       "dfc-b:hasAdress": {
         "@type": "dfc-b:Address",
         "dfc-b:city": "",
@@ -42,8 +42,7 @@
     {
       "@id": "brand/brandId1",
       "@type": "dfc-b:Brand",
-      "dfc-b:description": "brand description 1",
-      "dfc-b:description":"label brand 1"
+      "dfc-b:description": "brand description 1"
     },
     {
       "@id": "customerCategory/customerCategoryId1",
@@ -75,32 +74,32 @@
           "dfc-f:IncreasedNutrient"
         ],
       "dfc-b:hasNutrientCharacteristic": [
-        {
-          "@type":"dfc-b:NutrientCharacteristic",
-          "dfc-b:hasNutrientDimension":"dfc-m:Magnesium",
-          "dfc-b:hasUnit":"dfc-m:Gram",
-          "dfc-b:value":"10"
-        },
-        {
-          "@type":"dfc-b:NutrientCharacteristic",
-          "dfc-b:hasNutrientDimension":"dfc-m:Salt",
-          "dfc-b:hasUnit":"dfc-m:Gram",
-          "dfc-b:value":"0.01"
-        }
+          {
+              "@type":"dfc-b:NutrientCharacteristic",
+              "dfc-b:hasNutrientDimension":"dfc-m:Magnesium",
+              "dfc-b:hasUnit":"dfc-m:Gram",
+              "dfc-b:value":"10"
+          },
+          {
+              "@type":"dfc-b:NutrientCharacteristic",
+              "dfc-b:hasNutrientDimension":"dfc-m:Salt",
+              "dfc-b:hasUnit":"dfc-m:Gram",
+              "dfc-b:value":"0.01"
+          }
       ],
       "dfc-b:hasPhysicalCharacteristic": [
-        {
+          {
           "@type":"dfc-b:PhysicalCharacteristic",
           "dfc-b:hasPhysicalDimension":"dfc-m:Weight",
           "dfc-b:hasUnit":"dfc-m:Gram",
           "dfc-b:value":"100"
-        },
-        {
+          },
+          {
           "@type":"dfc-b:PhysicalCharacteristic",
           "dfc-b:hasPhysicalDimension":"dfc-m:Width",
           "dfc-b:hasUnit":"dfc-m:Centimetre",
           "dfc-b:value":"4.5"
-        }
+          }
       ],
       "dfc-b:hasAllergenCharacteristic": {
           "@type":"dfc-b:AllergenCharacteristic",
@@ -115,7 +114,7 @@
         "suppliedProduct/item4"
       ],
       "dfc-b:image": "supply image url",
-      "dfc-b:lifeTime": "supply lifeTime"
+      "dfc-b:lifeTime": "15 days"
     },
    {
       "@id": "suppliedProduct/item4",
@@ -130,13 +129,13 @@
       "dfc-b:description": "Strawberries coming from Andrew's farm.",
       "dfc-b:totalTheoriticalStock": "999",
       "dfc-b:image": "supply image url",
-      "dfc-b:lifeTime": "supply lifeTime"
+      "dfc-b:lifeTime": "4 days"
     },
     {
       "@id": "catalogItem/catalogItemId1",
       "@type": "dfc-b:CatalogItem",
       "dfc-b:references": "/suppliedProduct/item3",
-      "dfc-b:sku": "4225-776-3234",
+      "dfc-b:sku": "27.208.7.40.",
       "dfc-b:stockLimitation": "999",
       "dfc-b:offeredThrough": [
           "offer/offerId1",
@@ -146,7 +145,7 @@
     {
       "@id": "catalogItem/catalogItemId2",
       "@type": "dfc-b:CatalogItem",
-      "dfc-b:sku": "4225-776-3235",
+      "dfc-b:sku": "27.208.7.41.",
       "dfc-b:stockLimitation": "999",
       "dfc-b:references": "/suppliedProduct/item4",
       "dfc-b:offeredThrough": [
@@ -158,28 +157,48 @@
       "@id": "offer/offerId1",
       "@type": "dfc-b:Offer",
       "dfc-b:offeres": "/customerCategory/customerCategoryId1",
-      "dfc-b:price": "0",
+      "dfc-b:hasPrice": {
+        "@type": "dfc-b:Price",
+        "dfc-b:value": "10.2",
+        "dfc-b:VATrate": "5",
+        "dfc-b:hasUnit": "dfc-m:Euro"
+      },
       "dfc-b:stockLimitation": "999"
     },
     {
       "@id": "offer/offerId2",
       "@type": "dfc-b:Offer",
       "dfc-b:offeres": "/customerCategory/customerCategoryId2",
-      "dfc-b:price": "999",
+      "dfc-b:hasPrice": {
+        "@type": "dfc-b:Price",
+        "dfc-b:value": "8.67",
+        "dfc-b:VATrate": "5",
+        "dfc-b:hasUnit": "dfc-m:Euro"
+      },
       "dfc-b:stockLimitation": "999"
     },
     {
       "@id": "offer/offerId3",
       "@type": "dfc-b:Offer",
       "dfc-b:offeres": "/customerCategory/customerCategoryId1",
-      "dfc-b:price": "000",
+      "dfc-b:hasPrice": {
+        "@type": "dfc-b:Price",
+        "dfc-b:value": "12.4",
+        "dfc-b:VATrate": "5",
+        "dfc-b:hasUnit": "dfc-m:Euro"
+      },
       "dfc-b:stockLimitation": "999"
     },
     {
       "@id": "offer/offerId4",
       "@type": "dfc-b:Offer",
       "dfc-b:offeres": "/customerCategory/customerCategoryId2",
-      "dfc-b:price": "999",
+      "dfc-b:hasPrice": {
+        "@type": "dfc-b:Price",
+        "dfc-b:value": "22",
+        "dfc-b:VATrate": "5",
+        "dfc-b:hasUnit": "dfc-m:Euro"
+      },
       "dfc-b:stockLimitation": "999"
     }
   ]
