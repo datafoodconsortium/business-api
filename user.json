@@ -1,6 +1,6 @@
 {
   "@context": [
-      "http://static.datafoodconsortium.org/ontologies/context.json",
+      "https://github.com/datafoodconsortium/ontology/releases/latest/download/context.json",
       {
         "@base":"http://maPlateformeNationale/"
       }
