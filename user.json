@@ -63,7 +63,7 @@
           "dfc-b:hasUnit":"dfc-m:Gram",
           "dfc-b:value":"1000"
       },
-      "dfc-p:hasType": "dfc-pt:egg",
+      "dfc-b:hasType": "dfc-pt:egg",
       "dfc-b:description": "20 fresh eggs",
       "dfc-b:totalTheoriticalStock": "999",
       "dfc-b:hasBrand": "brand/brandId1",
@@ -125,7 +125,7 @@
           "dfc-b:hasUnit":"dfc-m:Gram",
           "dfc-b:value":"1000"
       },
-      "dfc-p:hasType": "dfc-pt:strawberry",
+      "dfc-b:hasType": "dfc-pt:strawberry",
       "dfc-b:description": "Strawberries coming from Andrew's farm.",
       "dfc-b:totalTheoriticalStock": "999",
       "dfc-b:image": "supply image url",
