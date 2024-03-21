@@ -1,41 +1,41 @@
 {
   "@context": [
-    "https://www.datafoodconsortium.org",
-    {
-      "@base":"http://maPlateformeNationale/"
-    }
-  ],
+      "https://www.datafoodconsortium.org",
+      {
+        "@base":"http://maPlateformeNationale/"
+      }
+    ],
   "@graph" : [
     {
-     "@id": "person/personId",
-      "@type": "dfc-b:Person",
-      "dfc-b:familyName": "Doe",
-      "dfc-b:firstName": "Jhon",
-      "dfc-b:hasAdress": {
-        "@type": "dfc-b:Address",
-        "dfc-b:city": "myCity",
-        "dfc-b:country": "myCountry",
-        "dfc-b:postcode": "myPostCode",
-        "dfc-b:street": "myStreet",
-        "dfc-b:longitude": "0.0",
-        "dfc-b:latitude": "0.0"
+      "@id": "person/personId",
+        "@type": "dfc-b:Person",
+        "dfc-b:familyName": "Doe",
+        "dfc-b:firstName": "Jhon",
+        "dfc-b:hasAdress": {
+          "@type": "dfc-b:Address",
+          "dfc-b:city": "myCity",
+          "dfc-b:country": "myCountry",
+          "dfc-b:postcode": "myPostCode",
+          "dfc-b:street": "myStreet",
+          "dfc-b:longitude": "0.0",
+          "dfc-b:latitude": "0.0"
+        },
+        "dfc-b:hasPhoneNumber": {
+          "@type": "dfc-b:PhoneNumber",
+          "dfc-b:phoneNumber": "00.00.00.00.00",
+          "dfc-b:countryCode": "33"
+        },
+        "dfc-b:hasSocialMedia": {
+          "@type": "dfc-b:SocialMedia",
+          "dfc-b:name": "mySocialMeda"
+        },
+        "dfc-b:affiliatedBy": [
+          "entreprise/entrepriseId"
+        ],
+        "dfc-b:orders": [
+          "order/orderId1"
+        ]
       },
-      "dfc-b:hasPhoneNumber": {
-        "@type": "dfc-b:PhoneNumber",
-        "dfc-b:phoneNumber": "00.00.00.00.00",
-        "dfc-b:countryCode": "33"
-      },
-      "dfc-b:hasSocialMedia": {
-        "@type": "dfc-b:SocialMedia",
-        "dfc-b:name": "mySocialMeda"
-      },
-      "dfc-b:affiliatedBy": [
-        "entreprise/entrepriseId"
-      ],
-      "dfc-b:orders": [
-        "order/orderId1"
-      ]
-    },
 
     {
       "@id": "entreprise/entrepriseId",
@@ -84,8 +84,9 @@
           "dfc-b:hasUnit":"dfc-m:Gram",
           "dfc-b:value":"1000"
       },
-      "dfc-p:hasType": "dfc-pt:egg",
-      "dfc-b:description": "supply description 1",
+      "dfc-b:hasType": "dfc-pt:egg",
+      "dfc-b:description": "20 fresh eggs",
+      "dfc-b:name": "Farmers Eggs",
       "dfc-b:totalTheoriticalStock": "999",
       "dfc-b:hasBrand": "brand/brandId1",
       "dfc-b:hasCertification": "dfc-f:Organic-AB",
@@ -131,8 +132,9 @@
           "dfc-b:hasUnit":"dfc-m:Gram",
           "dfc-b:value":"1000"
       },
-      "dfc-p:hasType": "dfc-pt:strawberry",
-      "dfc-b:description": "supply description 2",
+      "dfc-b:hasType": "dfc-pt:strawberry",
+      "dfc-b:name": "Plougastel's Strawberries",
+      "dfc-b:description": "Strawberries coming from Andrew's farm.",
       "dfc-b:totalTheoriticalStock": "999",
       "dfc-b:image": "supply image url",
       "dfc-b:lifeTime": "supply lifeTime",
@@ -176,7 +178,7 @@
     {
       "@id": "offer/offerId1",
       "@type": "dfc-b:Offer",
-      "dfc-b:offeredTo": "/customerCategory/customerCategoryId1",
+      "dfc-b:offeredTo": "customerCategory/customerCategoryId1",
       "dfc-b:stockLimitation": "999",
       "dfc-b:hasPrice": {
           "@type": "dfc-b:Price",
@@ -193,7 +195,7 @@
     {
       "@id": "offer/offerId2",
       "@type": "dfc-b:Offer",
-      "dfc-b:offeredTo": "/customerCategory/customerCategoryId2",
+      "dfc-b:offeredTo": "customerCategory/customerCategoryId2",
       "dfc-b:price": "999",
       "dfc-b:stockLimitation": "999",
       "dfc-b:hasPrice": {
@@ -214,7 +216,7 @@
     {
       "@id": "offer/offerId3",
       "@type": "dfc-b:Offer",
-      "dfc-b:offeredTo": "/customerCategory/customerCategoryId1",
+      "dfc-b:offeredTo": "customerCategory/customerCategoryId1",
       "dfc-b:stockLimitation": "999",
       "dfc-b:hasPrice": {
           "@type": "dfc-b:Price",
@@ -234,7 +236,7 @@
     {
       "@id": "offer/offerId4",
       "@type": "dfc-b:Offer",
-      "dfc-b:offeredTo": "/customerCategory/customerCategoryId2",
+      "dfc-b:offeredTo": "customerCategory/customerCategoryId2",
       "dfc-b:price": "999",
       "dfc-b:stockLimitation": "999",
       "dfc-b:discount":"5",
@@ -275,7 +277,6 @@
       "dfc-b:discount": "0",
       "dfc-b:date": "2023-02-13T14:30:00+01:00",
       "dfc-b:belongsTo": "salessession/salessessionId1",
-
       "dfc-b:hasPart": [
           "orderline/orderlineId1"
       ],
@@ -296,7 +297,6 @@
       
       "dfc-b:concerns": "offer/offerId1",
       "dfc-b:partOf": "order/orderId1"
-    }
-    
+    } 
   ]
 }
