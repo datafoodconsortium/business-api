@@ -178,7 +178,7 @@
     {
       "@id": "offer/offerId1",
       "@type": "dfc-b:Offer",
-      "dfc-b:offeredTo": "customerCategory/customerCategoryId1",
+      "dfc-b:offersTo": "customerCategory/customerCategoryId1",
       "dfc-b:stockLimitation": "999",
       "dfc-b:hasPrice": {
           "@type": "dfc-b:Price",
@@ -195,7 +195,7 @@
     {
       "@id": "offer/offerId2",
       "@type": "dfc-b:Offer",
-      "dfc-b:offeredTo": "customerCategory/customerCategoryId2",
+      "dfc-b:offersTo": "customerCategory/customerCategoryId2",
       "dfc-b:price": "999",
       "dfc-b:stockLimitation": "999",
       "dfc-b:hasPrice": {
@@ -216,7 +216,7 @@
     {
       "@id": "offer/offerId3",
       "@type": "dfc-b:Offer",
-      "dfc-b:offeredTo": "customerCategory/customerCategoryId1",
+      "dfc-b:offersTo": "customerCategory/customerCategoryId1",
       "dfc-b:stockLimitation": "999",
       "dfc-b:hasPrice": {
           "@type": "dfc-b:Price",
@@ -236,7 +236,7 @@
     {
       "@id": "offer/offerId4",
       "@type": "dfc-b:Offer",
-      "dfc-b:offeredTo": "customerCategory/customerCategoryId2",
+      "dfc-b:offersTo": "customerCategory/customerCategoryId2",
       "dfc-b:price": "999",
       "dfc-b:stockLimitation": "999",
       "dfc-b:discount":"5",
