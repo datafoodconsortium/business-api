@@ -1,42 +1,41 @@
 {
   "@context": [
-      "https://www.datafoodconsortium.org",
-      {
-        "@base":"http://maPlateformeNationale/"
-      }
-    ],
-  "@graph" : [
+    "https://www.datafoodconsortium.org",
+    {
+      "@base": "http://maPlateformeNationale/"
+    }
+  ],
+  "@graph": [
     {
       "@id": "person/personId",
-        "@type": "dfc-b:Person",
-        "dfc-b:familyName": "Doe",
-        "dfc-b:firstName": "Jhon",
-        "dfc-b:hasAdress": {
-          "@type": "dfc-b:Address",
-          "dfc-b:city": "myCity",
-          "dfc-b:country": "myCountry",
-          "dfc-b:postcode": "myPostCode",
-          "dfc-b:street": "myStreet",
-          "dfc-b:longitude": "0.0",
-          "dfc-b:latitude": "0.0"
-        },
-        "dfc-b:hasPhoneNumber": {
-          "@type": "dfc-b:PhoneNumber",
-          "dfc-b:phoneNumber": "00.00.00.00.00",
-          "dfc-b:countryCode": "33"
-        },
-        "dfc-b:hasSocialMedia": {
-          "@type": "dfc-b:SocialMedia",
-          "dfc-b:name": "mySocialMeda"
-        },
-        "dfc-b:affiliatedBy": [
-          "entreprise/entrepriseId"
-        ],
-        "dfc-b:orders": [
-          "order/orderId1"
-        ]
+      "@type": "dfc-b:Person",
+      "dfc-b:familyName": "Doe",
+      "dfc-b:firstName": "Jhon",
+      "dfc-b:hasAdress": {
+        "@type": "dfc-b:Address",
+        "dfc-b:city": "myCity",
+        "dfc-b:country": "myCountry",
+        "dfc-b:postcode": "myPostCode",
+        "dfc-b:street": "myStreet",
+        "dfc-b:longitude": "0.0",
+        "dfc-b:latitude": "0.0"
       },
-
+      "dfc-b:hasPhoneNumber": {
+        "@type": "dfc-b:PhoneNumber",
+        "dfc-b:phoneNumber": "00.00.00.00.00",
+        "dfc-b:countryCode": "33"
+      },
+      "dfc-b:hasSocialMedia": {
+        "@type": "dfc-b:SocialMedia",
+        "dfc-b:name": "mySocialMeda"
+      },
+      "dfc-b:affiliatedBy": [
+        "entreprise/entrepriseId"
+      ],
+      "dfc-b:orders": [
+        "order/orderId1"
+      ]
+    },
     {
       "@id": "entreprise/entrepriseId",
       "@type": "dfc-b:Entreprise",
@@ -44,7 +43,6 @@
       "dfc-b:affiliates": [
         "person/personId"
       ],
-      
       "dfc-b:defines": [
         "customerCategory/customerCategoryId1",
         "customerCategory/customerCategoryId2"
@@ -58,13 +56,11 @@
         "catalogItem/catalogItemId2"
       ]
     },
-
     {
       "@id": "brand/brandId1",
       "@type": "dfc-b:Brand",
       "dfc-b:description": "brand description 1"
     },
-
     {
       "@id": "customerCategory/customerCategoryId1",
       "@type": "dfc-b:CustomerCategory",
@@ -75,14 +71,13 @@
       "@type": "dfc-b:CustomerCategory",
       "dfc-b:description": "non member"
     },
-    
     {
       "@id": "suppliedProduct/item1",
       "@type": "dfc-b:SuppliedProduct",
-      "dfc-b:hasQuantity":{
-          "@type":"dfc-b:QuantitiveValue",
-          "dfc-b:hasUnit":"dfc-m:Gram",
-          "dfc-b:value":"1000"
+      "dfc-b:hasQuantity": {
+        "@type": "dfc-b:QuantitiveValue",
+        "dfc-b:hasUnit": "dfc-m:Gram",
+        "dfc-b:value": "1000"
       },
       "dfc-b:hasType": "dfc-pt:egg",
       "dfc-b:description": "20 fresh eggs",
@@ -91,27 +86,27 @@
       "dfc-b:hasBrand": "brand/brandId1",
       "dfc-b:hasCertification": "dfc-f:Organic-AB",
       "dfc-b:hasClaim": [
-          "dfc-f:NoAddedSugars",
-          "dfc-f:LowSodiumSalt",
-          "dfc-f:IncreasedNutrient"
-        ],
+        "dfc-f:NoAddedSugars",
+        "dfc-f:LowSodiumSalt",
+        "dfc-f:IncreasedNutrient"
+      ],
       "dfc-b:hasNutrientCharacteristic": {
-          "@type":"dfc-b:NutrientCharacteristic",
-          "dfc-b:hasNutrientDimension":"dfc-m:Magnesium",
-          "dfc-b:hasUnit":"dfc-u:Gram",
-          "dfc-b:value":"10"
+        "@type": "dfc-b:NutrientCharacteristic",
+        "dfc-b:hasNutrientDimension": "dfc-m:Magnesium",
+        "dfc-b:hasUnit": "dfc-u:Gram",
+        "dfc-b:value": "10"
       },
       "dfc-b:hasPhysicalCharacteristic": {
-          "@type":"dfc-b:PhysicalCharacteristic",
-          "dfc-b:hasPhysicalDimension":"dfc-m:Weight",
-          "dfc-b:hasUnit":"dfc-m:Gram",
-          "dfc-b:value":"100"
+        "@type": "dfc-b:PhysicalCharacteristic",
+        "dfc-b:hasPhysicalDimension": "dfc-m:Weight",
+        "dfc-b:hasUnit": "dfc-m:Gram",
+        "dfc-b:value": "100"
       },
       "dfc-b:hasAllergenCharacteristic": {
-          "@type":"dfc-b:AllergenCharacteristic",
-          "dfc-b:hasAllergenDimension":"dfc-m:allergenCharacteristic1",
-          "dfc-b:hasUnit":"dfc-m:Allenit1",
-          "dfc-b:value":"1"
+        "@type": "dfc-b:AllergenCharacteristic",
+        "dfc-b:hasAllergenDimension": "dfc-m:allergenCharacteristic1",
+        "dfc-b:hasUnit": "dfc-m:Allenit1",
+        "dfc-b:value": "1"
       },
       "dfc-b:hasGeographicalOrigin": "dfc-f:CentreValLoire",
       "dfc-b:hasNatureOrigin": "dfc-f:PlantOrigin",
@@ -121,16 +116,15 @@
       ],
       "dfc-b:image": "supply image url",
       "dfc-b:lifeTime": "supply lifeTime",
-      
       "dfc-b:referencedBy": "catalogItem/catalogItemId1"
     },
     {
       "@id": "suppliedProduct/item2",
       "@type": "dfc-b:SuppliedProduct",
-      "dfc-b:hasQuantity":{
-          "@type":"dfc-b:QuantitiveValue",
-          "dfc-b:hasUnit":"dfc-m:Gram",
-          "dfc-b:value":"1000"
+      "dfc-b:hasQuantity": {
+        "@type": "dfc-b:QuantitiveValue",
+        "dfc-b:hasUnit": "dfc-m:Gram",
+        "dfc-b:value": "1000"
       },
       "dfc-b:hasType": "dfc-pt:strawberry",
       "dfc-b:name": "Plougastel's Strawberries",
@@ -138,21 +132,18 @@
       "dfc-b:totalTheoriticalStock": "999",
       "dfc-b:image": "supply image url",
       "dfc-b:lifeTime": "supply lifeTime",
-      
       "dfc-b:referencedBy": "catalogItem/catalogItemId2"
     },
-
-
     {
       "@id": "catalogItem/catalogItemId1",
       "@type": "dfc-b:CatalogItem",
       "dfc-b:sku": "catalog item gtin or sku",
       "dfc-b:stockLimitation": "999",
       "dfc-b:references": "/suppliedProduct/item1",
-      "dfc-b:listedIn" : "catalog/catalog",
+      "dfc-b:listedIn": "catalog/catalog",
       "dfc-b:offeredThrough": [
-          "offer/offerId1",
-          "offer/offerId2"
+        "offer/offerId1",
+        "offer/offerId2"
       ]
     },
     {
@@ -161,7 +152,7 @@
       "dfc-b:sku": "catalog item gtin or sku",
       "dfc-b:stockLimitation": "999",
       "dfc-b:references": "/suppliedProduct/item2",
-      "dfc-b:listedIn" : "catalog/catalog",
+      "dfc-b:listedIn": "catalog/catalog",
       "dfc-b:offeredThrough": [
         "offer/offerId3",
         "offer/offerId4"
@@ -170,9 +161,9 @@
     {
       "@id": "catalog/catalog",
       "@type": "dfc-b:Catalog",
-      "dfc-b:lists" : [
-          "catalogItem/catalogItemId1",
-          "catalogItem/catalogItemId2"
+      "dfc-b:lists": [
+        "catalogItem/catalogItemId1",
+        "catalogItem/catalogItemId2"
       ]
     },
     {
@@ -181,16 +172,15 @@
       "dfc-b:offersTo": "customerCategory/customerCategoryId1",
       "dfc-b:stockLimitation": "999",
       "dfc-b:hasPrice": {
-          "@type": "dfc-b:Price",
-          "dfc-b:value": "10",
-          "dfc-b:VATrate": "5",
-          "dfc-b:hasUnit": "dfc-m:Euro"
+        "@type": "dfc-b:Price",
+        "dfc-b:value": "10",
+        "dfc-b:VATrate": "5",
+        "dfc-b:hasUnit": "dfc-m:Euro"
       },
-
       "dfc-b:listedIn": [
-          "salessession/salessessionId1"
+        "salessession/salessessionId1"
       ],
-      "dfc-b:offers" : "catalogItem/catalogItemId1"
+      "dfc-b:offers": "catalogItem/catalogItemId1"
     },
     {
       "@id": "offer/offerId2",
@@ -199,17 +189,17 @@
       "dfc-b:price": "999",
       "dfc-b:stockLimitation": "999",
       "dfc-b:hasPrice": {
-          "@type": "dfc-b:Price",
-          "dfc-b:value": "10",
-          "dfc-b:VATrate": "5",
-          "dfc-b:hasUnit": [
-              "dfc-m:Euro"
-          ]
+        "@type": "dfc-b:Price",
+        "dfc-b:value": "10",
+        "dfc-b:VATrate": "5",
+        "dfc-b:hasUnit": [
+          "dfc-m:Euro"
+        ]
       },
       "dfc-b:listedIn": [
-          "salessession/salessessionId1"
+        "salessession/salessessionId1"
       ],
-      "dfc-b:offers" : [
+      "dfc-b:offers": [
         "catalogItem/catalogItemId1"
       ]
     },
@@ -219,17 +209,17 @@
       "dfc-b:offersTo": "customerCategory/customerCategoryId1",
       "dfc-b:stockLimitation": "999",
       "dfc-b:hasPrice": {
-          "@type": "dfc-b:Price",
-          "dfc-b:value": "10",
-          "dfc-b:VATrate": "5",
-          "dfc-b:hasUnit": [
-              "dfc-m:Euro"
-          ]
+        "@type": "dfc-b:Price",
+        "dfc-b:value": "10",
+        "dfc-b:VATrate": "5",
+        "dfc-b:hasUnit": [
+          "dfc-m:Euro"
+        ]
       },
       "dfc-b:listedIn": [
-          "salessession/salessessionId1"
+        "salessession/salessessionId1"
       ],
-      "dfc-b:offers" : [
+      "dfc-b:offers": [
         "catalogItem/catalogItemId2"
       ]
     },
@@ -239,23 +229,22 @@
       "dfc-b:offersTo": "customerCategory/customerCategoryId2",
       "dfc-b:price": "999",
       "dfc-b:stockLimitation": "999",
-      "dfc-b:discount":"5",
+      "dfc-b:discount": "5",
       "dfc-b:hasPrice": {
-          "@type": "dfc-b:Price",
-          "dfc-b:value": "10",
-          "dfc-b:VATrate": "5",
-          "dfc-b:hasUnit": [
-              "dfc-m:Euro"
-          ]
+        "@type": "dfc-b:Price",
+        "dfc-b:value": "10",
+        "dfc-b:VATrate": "5",
+        "dfc-b:hasUnit": [
+          "dfc-m:Euro"
+        ]
       },
       "dfc-b:listedIn": [
-          "salessession/salessessionId1"
-        ],
-      "dfc-b:offers" : [
+        "salessession/salessessionId1"
+      ],
+      "dfc-b:offers": [
         "catalogItem/catalogItemId4"
       ]
     },
-
     {
       "@id": "salessession/salessessionId1",
       "@type": "dfc-b:SaleSession",
@@ -263,13 +252,12 @@
       "dfc-b:endDate": "",
       "dfc-b:quantity": "",
       "dfc-b:lists": [
-          "offer/offerId1",
-          "offer/offerId2",
-          "offer/offerId3",
-          "offer/offerId4"
-        ]
+        "offer/offerId1",
+        "offer/offerId2",
+        "offer/offerId3",
+        "offer/offerId4"
+      ]
     },
-
     {
       "@id": "order/orderId1",
       "@type": "dfc-b:Order",
@@ -278,9 +266,13 @@
       "dfc-b:date": "2023-02-13T14:30:00+01:00",
       "dfc-b:belongsTo": "salessession/salessessionId1",
       "dfc-b:hasPart": [
-          "orderline/orderlineId1"
+        "orderline/orderlineId1"
       ],
-      "dfc-b:orderedBy": "person/personId"
+      "dfc-b:orderedBy": "person/personId",
+      "dfc-b:selects": [
+        "pickupOption/shippingOptionId1",
+        "deliveryOption/deliveryOptionId1"
+      ]
     },
     {
       "@id": "orderline/orderlineId1",
@@ -289,14 +281,44 @@
       "dfc-b:discount": "0",
       "dfc-b:belongsTo": "salessession/salessessionId1",
       "dfc-b:hasPrice": {
-          "@type": "dfc-b:Price",
-          "dfc-b:value": "40",
-          "dfc-b:VATrate": "5",
-          "dfc-b:hasUnit": "dfc-m:Euro"
+        "@type": "dfc-b:Price",
+        "dfc-b:value": "40",
+        "dfc-b:VATrate": "5",
+        "dfc-b:hasUnit": "dfc-m:Euro"
       },
-      
       "dfc-b:concerns": "offer/offerId1",
       "dfc-b:partOf": "order/orderId1"
-    } 
+    },
+    {
+      "@id": "pickupOption/pickupOptionId1",
+      "@type": "dfc-b:PickupOption",
+      "dfc-b:uses": "physicalPlace/physicalPlaceId1"
+    },
+    {
+      "@id": "deliveryOption/deliveryOptionId1",
+      "@type": "dfc-b:DeliveryOption",
+      "dfc-b:hasAddress": {
+        "@type": "dfc-b:Address",
+        "dfc-b:city": "myCity",
+        "dfc-b:country": "myCountry",
+        "dfc-b:postcode": "myPostCode",
+        "dfc-b:street": "myStreet",
+        "dfc-b:longitude": "0.0",
+        "dfc-b:latitude": "0.0"
+      }
+    },
+    {
+      "@id": "physicalPlace/physicalPlaceId1",
+      "@type": "dfc-b:PhysicalPlace",
+      "dfc-b:hasAddress": {
+        "@type": "dfc-b:Address",
+        "dfc-b:city": "myCity",
+        "dfc-b:country": "myCountry",
+        "dfc-b:postcode": "myPostCode",
+        "dfc-b:street": "myStreet",
+        "dfc-b:longitude": "0.0",
+        "dfc-b:latitude": "0.0"
+      }
+    }
   ]
 }
