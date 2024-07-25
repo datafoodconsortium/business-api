@@ -116,7 +116,8 @@
       ],
       "dfc-b:image": "supply image url",
       "dfc-b:lifeTime": "supply lifeTime",
-      "dfc-b:referencedBy": "catalogItem/catalogItemId1"
+      "dfc-b:referencedBy": "catalogItem/catalogItemId1",
+      "dfc-b:referenceOf": "localizedProduct/localizedProductId1"
     },
     {
       "@id": "suppliedProduct/item2",
@@ -132,7 +133,8 @@
       "dfc-b:totalTheoriticalStock": "999",
       "dfc-b:image": "supply image url",
       "dfc-b:lifeTime": "supply lifeTime",
-      "dfc-b:referencedBy": "catalogItem/catalogItemId2"
+      "dfc-b:referencedBy": "catalogItem/catalogItemId2",
+      "dfc-b:referenceOf": "localizedProduct/localizedProductId2"
     },
     {
       "@id": "catalogItem/catalogItemId1",
@@ -175,7 +177,12 @@
         "@type": "dfc-b:Price",
         "dfc-b:value": "10",
         "dfc-b:VATrate": "5",
-        "dfc-b:hasUnit": "dfc-m:Euro"
+        "dfc-b:hasUnit": "dfc-m:Euro",
+        "dfc-b:hasQuantity": {
+          "@type": "dfc-b:Weight",
+          "dfc-b:hasUnit": "dfc-m:Gram",
+          "dfc-b:value": "1000"
+        }
       },
       "dfc-b:listedIn": [
         "salessession/salessessionId1"
@@ -186,15 +193,17 @@
       "@id": "offer/offerId2",
       "@type": "dfc-b:Offer",
       "dfc-b:offersTo": "customerCategory/customerCategoryId2",
-      "dfc-b:price": "999",
       "dfc-b:stockLimitation": "999",
       "dfc-b:hasPrice": {
         "@type": "dfc-b:Price",
         "dfc-b:value": "10",
         "dfc-b:VATrate": "5",
-        "dfc-b:hasUnit": [
-          "dfc-m:Euro"
-        ]
+        "dfc-b:hasUnit": "dfc-m:Euro",
+        "dfc-b:hasQuantity": {
+          "@type": "dfc-b:Weight",
+          "dfc-b:hasUnit": "dfc-m:Gram",
+          "dfc-b:value": "1000"
+        }
       },
       "dfc-b:listedIn": [
         "salessession/salessessionId1"
@@ -212,9 +221,12 @@
         "@type": "dfc-b:Price",
         "dfc-b:value": "10",
         "dfc-b:VATrate": "5",
-        "dfc-b:hasUnit": [
-          "dfc-m:Euro"
-        ]
+        "dfc-b:hasUnit": "dfc-m:Euro",
+        "dfc-b:hasQuantity": {
+          "@type": "dfc-b:Weight",
+          "dfc-b:hasUnit": "dfc-m:Gram",
+          "dfc-b:value": "1000"
+        }
       },
       "dfc-b:listedIn": [
         "salessession/salessessionId1"
@@ -266,12 +278,12 @@
       "dfc-b:date": "2023-02-13T14:30:00+01:00",
       "dfc-b:belongsTo": "salessession/salessessionId1",
       "dfc-b:hasPart": [
-        "orderline/orderlineId1"
+        "orderline/orderlineId1",
+        "orderline/orderlineId2"
       ],
       "dfc-b:orderedBy": "person/personId",
       "dfc-b:selects": [
-        "pickupOption/shippingOptionId1",
-        "deliveryOption/deliveryOptionId1"
+        "pickupOption/pickupOptionId1"
       ]
     },
     {
@@ -279,33 +291,45 @@
       "@type": "dfc-b:OrderLine",
       "dfc-b:quantity": "4",
       "dfc-b:discount": "0",
-      "dfc-b:belongsTo": "salessession/salessessionId1",
       "dfc-b:hasPrice": {
         "@type": "dfc-b:Price",
         "dfc-b:value": "40",
         "dfc-b:VATrate": "5",
-        "dfc-b:hasUnit": "dfc-m:Euro"
+        "dfc-b:hasUnit": "dfc-m:Euro",
+        "dfc-b:hasQuantity": {
+          "@type": "dfc-b:Weight",
+          "dfc-b:hasUnit": "dfc-m:Gram",
+          "dfc-b:value": "1000"
+        }
       },
       "dfc-b:concerns": "offer/offerId1",
-      "dfc-b:partOf": "order/orderId1"
+      "dfc-b:partOf": "order/orderId1",
+      "dfc-b:filledFrom": "localizedProduct/localizedProductId1"
+    },
+    {
+      "@id": "orderline/orderlineId2",
+      "@type": "dfc-b:OrderLine",
+      "dfc-b:quantity": "2",
+      "dfc-b:discount": "0",
+      "dfc-b:hasPrice": {
+        "@type": "dfc-b:Price",
+        "dfc-b:value": "20",
+        "dfc-b:VATrate": "5",
+        "dfc-b:hasUnit": "dfc-m:Euro",
+        "dfc-b:hasQuantity": {
+          "@type": "dfc-b:Weight",
+          "dfc-b:hasUnit": "dfc-m:Gram",
+          "dfc-b:value": "1000"
+        }
+      },
+      "dfc-b:concerns": "offer/offerId2",
+      "dfc-b:partOf": "order/orderId1",
+      "dfc-b:filledFrom": "localizedProduct/localizedProductId2"
     },
     {
       "@id": "pickupOption/pickupOptionId1",
       "@type": "dfc-b:PickupOption",
       "dfc-b:uses": "physicalPlace/physicalPlaceId1"
-    },
-    {
-      "@id": "deliveryOption/deliveryOptionId1",
-      "@type": "dfc-b:DeliveryOption",
-      "dfc-b:hasAddress": {
-        "@type": "dfc-b:Address",
-        "dfc-b:city": "myCity",
-        "dfc-b:country": "myCountry",
-        "dfc-b:postcode": "myPostCode",
-        "dfc-b:street": "myStreet",
-        "dfc-b:longitude": "0.0",
-        "dfc-b:latitude": "0.0"
-      }
     },
     {
       "@id": "physicalPlace/physicalPlaceId1",
@@ -319,6 +343,22 @@
         "dfc-b:longitude": "0.0",
         "dfc-b:latitude": "0.0"
       }
+    },
+    {
+      "@id": "localizedProduct/localizedProductId1",
+      "@type": "dfc-b:LocalizedProduct",
+      "dfc-b:language": "fr",
+      "dfc-b:description": "Description localisée du produit 1",
+      "dfc-b:hasName": "Nom localisé du produit 1",
+      "dfc-b:hasReference": "suppliedProduct/item1"
+    },
+    {
+      "@id": "localizedProduct/localizedProductId2",
+      "@type": "dfc-b:LocalizedProduct",
+      "dfc-b:language": "fr",
+      "dfc-b:description": "Description localisée du produit 2",
+      "dfc-b:hasName": "Nom localisé du produit 2",
+      "dfc-b:hasReference": "suppliedProduct/item2"
     }
   ]
 }
