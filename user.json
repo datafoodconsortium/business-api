@@ -288,7 +288,8 @@
       },
       "dfc-b:concerns": "offer/offerId1",
       "dfc-b:partOf": "order/orderId1",
-      "dfc-b:locatedIn": "physicalPlace/physicalPlaceId1"
+      "dfc-b:locatedIn": "physicalPlace/physicalPlaceId1",
+      "dfc-b:fulfils": "physicalProduct/physicalProductId1"
     },
     {
       "@id": "pickupOption/pickupOptionId1",
@@ -309,7 +310,7 @@
       }
     },
     {
-      "@id": "physicalPlace/physicalPlaceId2",
+      "@id": "physicalPlace/physicalProductId2",
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
@@ -320,6 +321,26 @@
         "dfc-b:longitude": "1.0",
         "dfc-b:latitude": "1.0"
       }
+    },
+    {
+      "@id": "physicalProduct/physicalProductId1",
+      "@type": "dfc-b:PhysicalProduct",
+      "dfc-b:constitutes": "realStock/realStockId1",
+      "dfc-b:name": "Nom du produit physique",
+      "dfc-b:description": "Description du produit physique",
+      "dfc-b:fulfilledBy": "orderline/orderlineId1"
+    },
+    {
+      "@id": "realStock/realStockId1",
+      "@type": "dfc-b:RealStock",
+      "dfc-b:constitutedBy": "physicalProduct/physicalProductId1" ,
+      "dfc-b:idStoredIn": "physicalPlace/physicalPlaceId2",
+      "dfc-b:represents": "localizedProduct/localizedProductId1"
+    },{
+      "@id": "localizedProduct/localizedProductId1",
+      "@type": "dfc-b:LocalizedProduct",
+      "dfc-b:representedBy": "physicalProduct/physicalProductId1",
+      "dfc-b:hasReference": "suppliedProduct/item1"
     }
   ]
 }
