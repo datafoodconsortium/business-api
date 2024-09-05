@@ -434,6 +434,12 @@
 		"dfc-b:uses": {
 			"@type": "@id"
 		},
+		"dfc-b:fulfills": {
+			"@type": "@id"
+		},
+		"dfc-b:fulfilledBy": {
+			"@type": "@id"
+		},
         "dfc-t:represent": {
 			"@type": "@id"
 		},
