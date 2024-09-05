@@ -1,6 +1,6 @@
 {
   "@context": [
-    "https://www.datafoodconsortium.org",
+    "https://w3id.org/dfc/ontology/v1.13.0/context.json",
     {
       "@base": "http://maPlateformeNationale/"
     }
@@ -288,13 +288,12 @@
       },
       "dfc-b:concerns": "offer/offerId1",
       "dfc-b:partOf": "order/orderId1",
-      "dfc-b:locatedIn": "physicalPlace/physicalPlaceId1",
-      "dfc-b:fulfils": "physicalProduct/physicalProductId1"
+      "dfc-b:fulfilledBy": "physicalProduct/physicalProductId1"
     },
     {
       "@id": "pickupOption/pickupOptionId1",
       "@type": "dfc-b:PickupOption",
-      "dfc-b:uses": "physicalPlace/physicalPlaceId1"
+      "dfc-b:pickupAt": "physicalPlace/physicalPlaceId1"
     },
     {
       "@id": "physicalPlace/physicalPlaceId1",
@@ -310,7 +309,7 @@
       }
     },
     {
-      "@id": "physicalPlace/physicalProductId2",
+      "@id": "physicalPlace/physicalPlaceId2",
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
@@ -328,7 +327,7 @@
       "dfc-b:constitutes": "realStock/realStockId1",
       "dfc-b:name": "Nom du produit physique",
       "dfc-b:description": "Description du produit physique",
-      "dfc-b:fulfilledBy": "orderline/orderlineId1"
+      "dfc-b:fulfills": "orderline/orderlineId1"
     },
     {
       "@id": "realStock/realStockId1",
