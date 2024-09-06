@@ -333,7 +333,7 @@
       "@id": "realStock/realStockId1",
       "@type": "dfc-b:RealStock",
       "dfc-b:constitutedBy": "physicalProduct/physicalProductId1" ,
-      "dfc-b:idStoredIn": "physicalPlace/physicalPlaceId2",
+      "dfc-b:isStoredIn": "physicalPlace/physicalPlaceId2",
       "dfc-b:represents": "localizedProduct/localizedProductId1"
     },{
       "@id": "localizedProduct/localizedProductId1",
