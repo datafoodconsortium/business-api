@@ -293,7 +293,7 @@
     {
       "@id": "pickupOption/pickupOptionId1",
       "@type": "dfc-b:PickupOption",
-      "dfc-b:pickupAt": "physicalPlace/physicalPlaceId1"
+      "dfc-b:pickedUpAt": "physicalPlace/physicalPlaceId1"
     },
     {
       "@id": "physicalPlace/physicalPlaceId1",
