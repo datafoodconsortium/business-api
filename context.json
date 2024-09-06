@@ -443,9 +443,6 @@
 		"dfc-b:isStoredIn": {
 			"@type": "@id"
 		},
-		"dfc-b:pickupAt": {
-			"@type": "@id"
-		},
 		"dfc-b:constitutedBy": {
 			"@type": "@id"
 		},
