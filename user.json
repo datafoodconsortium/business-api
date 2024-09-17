@@ -324,7 +324,7 @@
     {
       "@id": "physicalProduct/physicalProductId1",
       "@type": "dfc-b:PhysicalProduct",
-      "dfc-b:constitutes": "realStock/realStockId1",
+      "dfc-b:constitutedBy": "realStock/realStockId1",
       "dfc-b:name": "Nom du produit physique",
       "dfc-b:description": "Description du produit physique",
       "dfc-b:fulfills": "orderline/orderlineId1"
@@ -332,7 +332,7 @@
     {
       "@id": "realStock/realStockId1",
       "@type": "dfc-b:RealStock",
-      "dfc-b:constitutedBy": "physicalProduct/physicalProductId1" ,
+      "dfc-b:constitutes": "physicalProduct/physicalProductId1" ,
       "dfc-b:isStoredIn": "physicalPlace/physicalPlaceId2",
       "dfc-b:represents": "localizedProduct/localizedProductId1"
     },{
