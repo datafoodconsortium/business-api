@@ -13,12 +13,12 @@
       "dfc-b:firstName": "Jhon",
       "dfc-b:hasAdress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "myCity",
-        "dfc-b:country": "myCountry",
-        "dfc-b:postcode": "myPostCode",
-        "dfc-b:street": "myStreet",
-        "dfc-b:longitude": "0.0",
-        "dfc-b:latitude": "0.0"
+        "dfc-b:city": "Lyon",
+        "dfc-b:country": "France",
+        "dfc-b:postcode": "69001",
+        "dfc-b:street": "1 Rue de la République",
+        "dfc-b:longitude": "4.8357",
+        "dfc-b:latitude": "45.7640"
       },
       "dfc-b:hasPhoneNumber": {
         "@type": "dfc-b:PhoneNumber",
@@ -300,12 +300,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "myCity",
-        "dfc-b:country": "myCountry",
-        "dfc-b:postcode": "myPostCode",
-        "dfc-b:street": "myStreet",
-        "dfc-b:longitude": "0.0",
-        "dfc-b:latitude": "0.0"
+        "dfc-b:city": "Marseille",
+        "dfc-b:country": "France",
+        "dfc-b:postcode": "13001",
+        "dfc-b:street": "2 Rue Saint-Ferréol",
+        "dfc-b:longitude": "5.3764",
+        "dfc-b:latitude": "43.2965"
       }
     },
     {
@@ -313,12 +313,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "autreVille",
-        "dfc-b:country": "autrePays",
-        "dfc-b:postcode": "autreCodePostal",
-        "dfc-b:street": "autreRue",
-        "dfc-b:longitude": "1.0",
-        "dfc-b:latitude": "1.0"
+        "dfc-b:city": "Bordeaux",
+        "dfc-b:country": "France",
+        "dfc-b:postcode": "33000",
+        "dfc-b:street": "3 Cours de l'Intendance",
+        "dfc-b:longitude": "-0.5792",
+        "dfc-b:latitude": "44.8378"
       }
     },
     {
