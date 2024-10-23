@@ -758,17 +758,23 @@
     {
       "@id": "pickupOption/pickupOptionId1",
       "@type": "dfc-b:PickupOption",
-      "dfc-b:pickedUpAt": "physicalPlace/physicalPlaceId1"
+      "dfc-b:pickedUpAt": "physicalPlace/physicalPlaceId1",
+      "dfc-b:startDate": "2025-01-15T09:00:00+01:00",
+      "dfc-b:endDate": "2025-01-22T18:00:00+01:00"
     },
     {
       "@id": "pickupOption/pickupOptionId2",
       "@type": "dfc-b:PickupOption",
-      "dfc-b:pickedUpAt": "physicalPlace/physicalPlaceId2"
+      "dfc-b:pickedUpAt": "physicalPlace/physicalPlaceId2",
+      "dfc-b:startDate": "2025-01-18T10:00:00+01:00",
+      "dfc-b:endDate": "2025-01-25T17:00:00+01:00"
     },
     {
       "@id": "pickupOption/pickupOptionId3",
       "@type": "dfc-b:PickupOption",
-      "dfc-b:pickedUpAt": "physicalPlace/physicalPlaceId3"
+      "dfc-b:pickedUpAt": "physicalPlace/physicalPlaceId3",
+      "dfc-b:startDate": "2025-01-16T11:00:00+01:00",
+      "dfc-b:endDate": "2025-01-23T19:00:00+01:00"
     },
     {
       "@id": "physicalPlace/physicalPlaceId1",
@@ -903,7 +909,7 @@
       "@id": "realStock/realStockId1",
       "@type": "dfc-b:RealStock",
       "dfc-b:constitutes": "physicalProduct/physicalProductId1",
-      "dfc-b:isStoredIn": "physicalPlace/physicalPlaceId4"
+      "dfc-b:isStoredIn": "physicalPlace/physicalPlaceId8"
     },
     {
       "@id": "realStock/realStockId2",
