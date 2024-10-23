@@ -787,26 +787,26 @@
       "@id": "physicalPlace/physicalPlaceId2",
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
-        "@type": "dfc-b:Address",
+        "@type": "dfc-b:Address", 
         "dfc-b:city": "Bordeaux",
         "dfc-b:country": "France",
         "dfc-b:postcode": "33000",
-        "dfc-b:street": "3 Cours de l'Intendance",
-        "dfc-b:longitude": "-0.5792",
-        "dfc-b:latitude": "44.8378"
+        "dfc-b:street": "10 Rue Sainte-Catherine",
+        "dfc-b:longitude": "-0.5736",
+        "dfc-b:latitude": "44.8404"
       }
     },
     {
       "@id": "physicalPlace/physicalPlaceId3",
-      "@type": "dfc-b:PhysicalPlace",
+      "@type": "dfc-b:PhysicalPlace",  
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
         "dfc-b:city": "Nice",
-        "dfc-b:country": "France",
+        "dfc-b:country": "France", 
         "dfc-b:postcode": "06000",
-        "dfc-b:street": "4 Avenue Jean Médecin",
-        "dfc-b:longitude": "7.2654",
-        "dfc-b:latitude": "43.7102"
+        "dfc-b:street": "12 Promenade des Anglais",
+        "dfc-b:longitude": "7.2578",
+        "dfc-b:latitude": "43.6952"
       }
     },
     {
@@ -1076,12 +1076,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Bordeaux",
+        "dfc-b:city": "Bordeaux", 
         "dfc-b:country": "France",
         "dfc-b:postcode": "33000",
-        "dfc-b:street": "3 Cours de l'Intendance",
-        "dfc-b:longitude": "-0.5792",
-        "dfc-b:latitude": "44.8378"
+        "dfc-b:street": "25 Rue du Loup",
+        "dfc-b:longitude": "-0.5783",
+        "dfc-b:latitude": "44.8368" 
       }
     },
     {
@@ -1092,9 +1092,9 @@
         "dfc-b:city": "Nice",
         "dfc-b:country": "France",
         "dfc-b:postcode": "06000",
-        "dfc-b:street": "4 Avenue Jean Médecin",
-        "dfc-b:longitude": "7.2654",
-        "dfc-b:latitude": "43.7102"
+        "dfc-b:street": "2 Boulevard Victor Hugo",
+        "dfc-b:longitude": "7.2705",
+        "dfc-b:latitude": "43.7015"
       }
     },
     {
@@ -1104,10 +1104,10 @@
         "@type": "dfc-b:Address",
         "dfc-b:city": "Paris",
         "dfc-b:country": "France",
-        "dfc-b:postcode": "75001",
-        "dfc-b:street": "1 Rue de Rivoli",
-        "dfc-b:longitude": "2.3522",
-        "dfc-b:latitude": "48.8566"
+        "dfc-b:postcode": "75002",
+        "dfc-b:street": "10 Boulevard Montmartre",
+        "dfc-b:longitude": "2.3425",
+        "dfc-b:latitude": "48.8698"
       }
     },
     {
