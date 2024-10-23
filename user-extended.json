@@ -788,12 +788,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address", 
-        "dfc-b:city": "Bordeaux",
+        "dfc-b:city": "Lille",
         "dfc-b:country": "France",
-        "dfc-b:postcode": "33000",
-        "dfc-b:street": "10 Rue Sainte-Catherine",
-        "dfc-b:longitude": "-0.5736",
-        "dfc-b:latitude": "44.8404"
+        "dfc-b:postcode": "59000",
+        "dfc-b:street": "1 Place de la République",
+        "dfc-b:longitude": "3.0635",
+        "dfc-b:latitude": "50.6365"
       }
     },
     {
@@ -801,12 +801,12 @@
       "@type": "dfc-b:PhysicalPlace",  
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Nice",
+        "dfc-b:city": "Strasbourg",
         "dfc-b:country": "France", 
-        "dfc-b:postcode": "06000",
-        "dfc-b:street": "12 Promenade des Anglais",
-        "dfc-b:longitude": "7.2578",
-        "dfc-b:latitude": "43.6952"
+        "dfc-b:postcode": "67000",
+        "dfc-b:street": "1 Place Kléber",
+        "dfc-b:longitude": "7.7521",
+        "dfc-b:latitude": "48.5831"
       }
     },
     {
@@ -1024,12 +1024,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Paris",
+        "dfc-b:city": "Brest",
         "dfc-b:country": "France",
-        "dfc-b:postcode": "75001",
-        "dfc-b:street": "1 Rue de Rivoli",
-        "dfc-b:longitude": "2.3522",
-        "dfc-b:latitude": "48.8566"
+        "dfc-b:postcode": "29200",
+        "dfc-b:street": "1 Rue de Siam",
+        "dfc-b:longitude": "-4.4860",
+        "dfc-b:latitude": "48.3905"
       }
     },
     {
@@ -1037,12 +1037,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Toulouse",
+        "dfc-b:city": "Perpignan",
         "dfc-b:country": "France",
-        "dfc-b:postcode": "31000",
-        "dfc-b:street": "1 Place du Capitole",
-        "dfc-b:longitude": "1.4437",
-        "dfc-b:latitude": "43.6045"
+        "dfc-b:postcode": "66000",
+        "dfc-b:street": "1 Place de la Loge",
+        "dfc-b:longitude": "2.8954",
+        "dfc-b:latitude": "42.6976"
       }
     },
     {
@@ -1050,12 +1050,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Nantes",
+        "dfc-b:city": "Orléans",
         "dfc-b:country": "France",
-        "dfc-b:postcode": "44000",
-        "dfc-b:street": "1 Rue de la Marne",
-        "dfc-b:longitude": "-1.5536",
-        "dfc-b:latitude": "47.2184"
+        "dfc-b:postcode": "45000",
+        "dfc-b:street": "1 Place du Martroi",
+        "dfc-b:longitude": "1.9039",
+        "dfc-b:latitude": "47.9029"
       }
     },
     {
@@ -1063,12 +1063,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Lyon",
+        "dfc-b:city": "Grenoble",
         "dfc-b:country": "France",
-        "dfc-b:postcode": "69001",
-        "dfc-b:street": "1 Rue de la République",
-        "dfc-b:longitude": "4.8357",
-        "dfc-b:latitude": "45.7640"
+        "dfc-b:postcode": "38000",
+        "dfc-b:street": "1 Place Grenette",
+        "dfc-b:longitude": "5.7266",
+        "dfc-b:latitude": "45.1885"
       }
     },
     {
