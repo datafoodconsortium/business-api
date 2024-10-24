@@ -321,6 +321,8 @@
         "dfc-b:VATrate": "5.5",
         "dfc-b:hasUnit": [
           "dfc-m:Euro"
+        ]
+      }
     },
     {
       "@id": "offer/offerId4",
