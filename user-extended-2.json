@@ -763,24 +763,24 @@
     },
     {
       "@id": "pickupOption/pickupOptionId2",
-      "@type": "dfc-b:PickupOption",
+      "@type": "dfc-b:PickupOption", 
       "dfc-b:pickedUpAt": "physicalPlace/physicalPlaceId2",
-      "dfc-b:startDate": "2025-01-18T10:00:00+01:00",
-      "dfc-b:endDate": "2025-01-25T17:00:00+01:00"
+      "dfc-b:startDate": "2025-01-20T10:00:00+01:00",
+      "dfc-b:endDate": "2025-01-27T17:00:00+01:00"
     },
     {
       "@id": "pickupOption/pickupOptionId3",
       "@type": "dfc-b:PickupOption",
       "dfc-b:pickedUpAt": "physicalPlace/physicalPlaceId3",
-      "dfc-b:startDate": "2025-01-16T11:00:00+01:00",
-      "dfc-b:endDate": "2025-01-23T19:00:00+01:00"
+      "dfc-b:startDate": "2025-01-18T11:00:00+01:00",
+      "dfc-b:endDate": "2025-01-25T19:00:00+01:00"  
     },
     {
       "@id": "pickupOption/pickupOptionId4",
       "@type": "dfc-b:PickupOption",
       "dfc-b:pickedUpAt": "physicalPlace/physicalPlaceId4",
-      "dfc-b:startDate": "2025-01-17T10:00:00+01:00",
-      "dfc-b:endDate": "2025-01-24T18:00:00+01:00"
+      "dfc-b:startDate": "2025-01-22T10:00:00+01:00",
+      "dfc-b:endDate": "2025-01-29T18:00:00+01:00"
     },
     {
       "@id": "physicalPlace/physicalPlaceId1",
