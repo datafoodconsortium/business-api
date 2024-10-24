@@ -493,7 +493,7 @@
     {
       "@id": "order/orderId1",
       "@type": "dfc-b:Order",
-      "dfc-b:orderNumber": "0001",
+      "dfc-b:orderNumber": "000A",
       "dfc-b:discount": "0",
       "dfc-b:date": "2023-02-13T14:30:00+01:00",
       "dfc-b:belongsTo": "salessession/salessessionId1",
@@ -507,7 +507,7 @@
     {
       "@id": "order/orderId2",
       "@type": "dfc-b:Order",
-      "dfc-b:orderNumber": "0002",
+      "dfc-b:orderNumber": "000B",
       "dfc-b:discount": "0",
       "dfc-b:date": "2023-02-14T10:00:00+01:00",
       "dfc-b:belongsTo": "salessession/salessessionId1",
@@ -521,7 +521,7 @@
     {
       "@id": "order/orderId3",
       "@type": "dfc-b:Order",
-      "dfc-b:orderNumber": "0003",
+      "dfc-b:orderNumber": "000C",
       "dfc-b:discount": "0",
       "dfc-b:date": "2023-02-15T11:00:00+01:00",
       "dfc-b:belongsTo": "salessession/salessessionId1",
@@ -535,7 +535,7 @@
     {
       "@id": "order/orderId4",
       "@type": "dfc-b:Order",
-      "dfc-b:orderNumber": "0004",
+      "dfc-b:orderNumber": "000D",
       "dfc-b:discount": "0",
       "dfc-b:date": "2023-02-16T12:00:00+01:00",
       "dfc-b:belongsTo": "salessession/salessessionId1",
