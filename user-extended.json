@@ -552,7 +552,7 @@
         "orderline/orderlineId10"
       ],
       "dfc-b:orderedBy": "person/personId",
-      "dfc-b:selects": "pickupOption/pickupOptionId1"
+      "dfc-b:selects": "pickupOption/pickupOptionId4"
     },
   
     {
@@ -775,6 +775,13 @@
       "dfc-b:pickedUpAt": "physicalPlace/physicalPlaceId3",
       "dfc-b:startDate": "2025-01-16T11:00:00+01:00",
       "dfc-b:endDate": "2025-01-23T19:00:00+01:00"
+    },
+    {
+      "@id": "pickupOption/pickupOptionId4",
+      "@type": "dfc-b:PickupOption",
+      "dfc-b:pickedUpAt": "physicalPlace/physicalPlaceId4",
+      "dfc-b:startDate": "2025-01-17T10:00:00+01:00",
+      "dfc-b:endDate": "2025-01-24T18:00:00+01:00"
     },
     {
       "@id": "physicalPlace/physicalPlaceId1",
