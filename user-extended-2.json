@@ -670,6 +670,26 @@
       "dfc-b:fulfilledBy": "physicalProduct/physicalProductId6"
     },
     {
+      "@id": "orderline/orderlineId7",
+      "@type": "dfc-b:OrderLine",
+      "dfc-b:hasQuantity": {
+        "@type": "dfc-b:QuantitiveValue",
+        "dfc-b:hasUnit": "dfc-m:Gram",
+        "dfc-b:value": "500"
+      },
+      "dfc-b:discount": "0",
+      "dfc-b:belongsTo": "salessession/salessessionId1",
+      "dfc-b:hasPrice": {
+        "@type": "dfc-b:Price",
+        "dfc-b:value": "20",
+        "dfc-b:VATrate": "5",
+        "dfc-b:hasUnit": "dfc-m:Euro"
+      },
+      "dfc-b:concerns": "offer/offerId7",
+      "dfc-b:partOf": "order/orderId4",
+      "dfc-b:fulfilledBy": "physicalProduct/physicalProductId7"
+    },
+    {
       "@id": "orderline/orderlineId8",
       "@type": "dfc-b:OrderLine",
       "dfc-b:hasQuantity": {
