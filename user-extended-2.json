@@ -322,7 +322,13 @@
         "dfc-b:hasUnit": [
           "dfc-m:Euro"
         ]
-      }
+      },
+      "dfc-b:listedIn": [
+        "salessession/salessessionId1"
+      ],
+      "dfc-b:offers": [
+        "catalogItem/catalogItemId2"
+      ]
     },
     {
       "@id": "offer/offerId4",
@@ -548,7 +554,6 @@
       "dfc-b:orderedBy": "person/personId",
       "dfc-b:selects": "pickupOption/pickupOptionId4"
     },
-  
     {
       "@id": "orderline/orderlineId1",
       "@type": "dfc-b:OrderLine",
@@ -794,7 +799,7 @@
       "@id": "physicalPlace/physicalPlaceId2",
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
-        "@type": "dfc-b:Address", 
+        "@type": "dfc-b:Address",
         "dfc-b:city": "Lille",
         "dfc-b:country": "France",
         "dfc-b:postcode": "59000",
@@ -805,11 +810,11 @@
     },
     {
       "@id": "physicalPlace/physicalPlaceId3",
-      "@type": "dfc-b:PhysicalPlace",  
+      "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
         "dfc-b:city": "Strasbourg",
-        "dfc-b:country": "France", 
+        "dfc-b:country": "France",
         "dfc-b:postcode": "67000",
         "dfc-b:street": "1 Place Kléber",
         "dfc-b:longitude": "7.7521",
@@ -850,7 +855,7 @@
       "dfc-b:name": "Nom du produit physique 4",
       "dfc-b:description": "Description du produit physique 4",
       "dfc-b:fulfills": "orderline/orderlineId4",
-      "dfc-b:represents": "localizedProduct/localizedProductId4"  
+      "dfc-b:represents": "localizedProduct/localizedProductId4"
     },
     {
       "@id": "physicalProduct/physicalProductId5",
@@ -1077,12 +1082,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Bordeaux", 
+        "dfc-b:city": "Bordeaux",
         "dfc-b:country": "France",
         "dfc-b:postcode": "33000",
         "dfc-b:street": "25 Rue du Loup",
         "dfc-b:longitude": "-0.5783",
-        "dfc-b:latitude": "44.8368" 
+        "dfc-b:latitude": "44.8368"
       }
     },
     {
