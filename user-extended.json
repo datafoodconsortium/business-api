@@ -13,12 +13,12 @@
       "dfc-b:firstName": "Jhon",
       "dfc-b:hasAdress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Lyon",
+        "dfc-b:city": "Bayeux",
         "dfc-b:country": "France",
-        "dfc-b:postcode": "69001",
-        "dfc-b:street": "1 Rue de la République",
-        "dfc-b:longitude": "4.8357",
-        "dfc-b:latitude": "45.7675"
+        "dfc-b:postcode": "14400",
+        "dfc-b:street": "10 rue des Cuisiniers",
+        "dfc-b:longitude": "49.2773060857462",
+        "dfc-b:latitude": "-0.7031778445492223"
       },
       "dfc-b:hasPhoneNumber": {
         "@type": "dfc-b:PhoneNumber",
@@ -782,12 +782,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Marseille",
+        "dfc-b:city": "Caen",
         "dfc-b:country": "France",
-        "dfc-b:postcode": "13001",
-        "dfc-b:street": "2 Rue Saint-Ferréol",
-        "dfc-b:longitude": "5.3772",
-        "dfc-b:latitude": "43.2951"
+        "dfc-b:postcode": "14000",
+        "dfc-b:street": "Le Chemin Vert",
+        "dfc-b:longitude": "49.191564473824094",
+        "dfc-b:latitude": "-0.39736512228028353"
       }
     },
     {
@@ -795,12 +795,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Lille",
+        "dfc-b:city": "Saint-Paul-du-Vernay",
         "dfc-b:country": "France",
-        "dfc-b:postcode": "59000",
-        "dfc-b:street": "1 Place de la République",
-        "dfc-b:longitude": "3.0629",
-        "dfc-b:latitude": "50.6329"
+        "dfc-b:postcode": "14490",
+        "dfc-b:street": "175-59 Les Guérins",
+        "dfc-b:longitude": "49.187825112848664",
+        "dfc-b:latitude": "-0.7632579835975654"
       }
     },
     {
@@ -808,12 +808,12 @@
       "@type": "dfc-b:PhysicalPlace",  
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Strasbourg",
+        "dfc-b:city": "Commes",
         "dfc-b:country": "France", 
-        "dfc-b:postcode": "67000",
-        "dfc-b:street": "1 Place Kléber",
-        "dfc-b:longitude": "7.7521",
-        "dfc-b:latitude": "48.5831"
+        "dfc-b:postcode": "14520",
+        "dfc-b:street": "Le Bouffay",
+        "dfc-b:longitude": "49.34180882869111",
+        "dfc-b:latitude": "-0.7245351439600212"
       }
     },
     {
@@ -1031,12 +1031,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Brest",
+        "dfc-b:city": "Ryes",
         "dfc-b:country": "France",
-        "dfc-b:postcode": "29200",
-        "dfc-b:street": "1 Rue de Siam",
-        "dfc-b:longitude": "-4.4853",
-        "dfc-b:latitude": "48.3897"
+        "dfc-b:postcode": "14400",
+        "dfc-b:street": "1 rue d'Arromanches",
+        "dfc-b:longitude": "49.313175639364246",
+        "dfc-b:latitude": "-0.6255526282702064"
       }
     },
     {
@@ -1044,12 +1044,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Perpignan",
+        "dfc-b:city": "La Folie",
         "dfc-b:country": "France",
-        "dfc-b:postcode": "66000",
-        "dfc-b:street": "1 Place de la Loge",
-        "dfc-b:longitude": "2.8949",
-        "dfc-b:latitude": "42.6986"
+        "dfc-b:postcode": "14710",
+        "dfc-b:street": "193 Rte de Bernesq",
+        "dfc-b:longitude": "49.26477014474795",
+        "dfc-b:latitude": "-0.96706691212859"
       }
     },
     {
@@ -1057,12 +1057,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Orléans",
+        "dfc-b:city": "Saint-Lô",
         "dfc-b:country": "France",
         "dfc-b:postcode": "45000",
-        "dfc-b:street": "1 Place du Martroi",
-        "dfc-b:longitude": "1.9043",
-        "dfc-b:latitude": "47.9025"
+        "dfc-b:street": "1 Rue du Mont Russel",
+        "dfc-b:longitude": "49.11788765025128",
+        "dfc-b:latitude": "-1.087424619913514"
       }
     },
     {
@@ -1070,12 +1070,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Grenoble",
+        "dfc-b:city": "Vierville-sur-Mer",
         "dfc-b:country": "France",
-        "dfc-b:postcode": "38000",
-        "dfc-b:street": "1 Place Grenette",
-        "dfc-b:longitude": "5.7245",
-        "dfc-b:latitude": "45.1915"
+        "dfc-b:postcode": "14710",
+        "dfc-b:street": "1 Rte de Formigny",
+        "dfc-b:longitude": "49.37432761411583",
+        "dfc-b:latitude": "-0.9046227657418054"
       }
     },
     {
@@ -1083,12 +1083,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Bordeaux", 
+        "dfc-b:city": "Villers-Bocage", 
         "dfc-b:country": "France",
-        "dfc-b:postcode": "33000",
-        "dfc-b:street": "25 Rue du Loup",
-        "dfc-b:longitude": "-0.572823",
-        "dfc-b:latitude": "44.838012" 
+        "dfc-b:postcode": "14310",
+        "dfc-b:street": "1 Chem. du Mézerais",
+        "dfc-b:longitude": "49.08451431188889",
+        "dfc-b:latitude": "-0.653657859405463" 
       }
     },
     {
@@ -1096,12 +1096,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Nice",
+        "dfc-b:city": "Sallen",
         "dfc-b:country": "France",
-        "dfc-b:postcode": "06000",
-        "dfc-b:street": "2 Boulevard Victor Hugo",
-        "dfc-b:longitude": "7.2619",
-        "dfc-b:latitude": "43.7009"
+        "dfc-b:postcode": "14240",
+        "dfc-b:street": "Le Bourg",
+        "dfc-b:longitude": "49.11468948305946",
+        "dfc-b:latitude": "-0.8287036417659633"
       }
     },
     {
@@ -1109,12 +1109,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Paris",
+        "dfc-b:city": "Banville",
         "dfc-b:country": "France",
-        "dfc-b:postcode": "75002",
-        "dfc-b:street": "10 Boulevard Montmartre",
-        "dfc-b:longitude": "2.3412",
-        "dfc-b:latitude": "48.8720"
+        "dfc-b:postcode": "14480",
+        "dfc-b:street": "1 Rue du Camp Romain",
+        "dfc-b:longitude": "49.31289282291928",
+        "dfc-b:latitude": "-0.48730065875685036"
       }
     },
     {
@@ -1122,12 +1122,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Toulouse",
+        "dfc-b:city": "Souleuvre en Bocage",
         "dfc-b:country": "France",
-        "dfc-b:postcode": "31000",
-        "dfc-b:street": "1 Place du Capitole",
-        "dfc-b:longitude": "1.4442",
-        "dfc-b:latitude": "43.6044"
+        "dfc-b:postcode": "14350",
+        "dfc-b:street": "1 rue G. Brassens-le Bény Bocag",
+        "dfc-b:longitude": "48.93672900154579",
+        "dfc-b:latitude": "-0.8392061485140986"
       }
     },
     {
@@ -1135,12 +1135,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Nantes",
+        "dfc-b:city": "Subles",
         "dfc-b:country": "France",
-        "dfc-b:postcode": "44000",
-        "dfc-b:street": "1 Rue de la Marne",
-        "dfc-b:longitude": "-1.5534",
-        "dfc-b:latitude": "47.2172"
+        "dfc-b:postcode": "14400",
+        "dfc-b:street": "35 rue St Martin",
+        "dfc-b:longitude": "49.240881849504895",
+        "dfc-b:latitude": "-0.7508273692618682"
       }
     },
     {
@@ -1148,12 +1148,12 @@
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
         "@type": "dfc-b:Address",
-        "dfc-b:city": "Lyon",
+        "dfc-b:city": "Port-en-Bessin-Huppain",
         "dfc-b:country": "France",
-        "dfc-b:postcode": "69001",
-        "dfc-b:street": "1 Rue de la République",
-        "dfc-b:longitude": "4.8357",
-        "dfc-b:latitude": "45.7675"
+        "dfc-b:postcode": "14520",
+        "dfc-b:street": "1 Rue de Bayeux",
+        "dfc-b:longitude": "49.34723435288894",
+        "dfc-b:latitude": "-0.7549675678169561"
       }
     }
   ]
