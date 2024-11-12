@@ -18,7 +18,7 @@
         "dfc-b:postcode": "69001",
         "dfc-b:street": "1 Rue de la République",
         "dfc-b:longitude": "4.8357",
-        "dfc-b:latitude": "45.7640"
+        "dfc-b:latitude": "45.7675"
       },
       "dfc-b:hasPhoneNumber": {
         "@type": "dfc-b:PhoneNumber",
@@ -786,21 +786,21 @@
         "dfc-b:country": "France",
         "dfc-b:postcode": "13001",
         "dfc-b:street": "2 Rue Saint-Ferréol",
-        "dfc-b:longitude": "5.3764",
-        "dfc-b:latitude": "43.2965"
+        "dfc-b:longitude": "5.3772",
+        "dfc-b:latitude": "43.2951"
       }
     },
     {
       "@id": "physicalPlace/physicalPlaceId2",
       "@type": "dfc-b:PhysicalPlace",
       "dfc-b:hasAddress": {
-        "@type": "dfc-b:Address", 
+        "@type": "dfc-b:Address",
         "dfc-b:city": "Lille",
         "dfc-b:country": "France",
         "dfc-b:postcode": "59000",
         "dfc-b:street": "1 Place de la République",
-        "dfc-b:longitude": "3.0635",
-        "dfc-b:latitude": "50.6365"
+        "dfc-b:longitude": "3.0629",
+        "dfc-b:latitude": "50.6329"
       }
     },
     {
@@ -1035,8 +1035,8 @@
         "dfc-b:country": "France",
         "dfc-b:postcode": "29200",
         "dfc-b:street": "1 Rue de Siam",
-        "dfc-b:longitude": "-4.4860",
-        "dfc-b:latitude": "48.3905"
+        "dfc-b:longitude": "-4.4853",
+        "dfc-b:latitude": "48.3897"
       }
     },
     {
@@ -1048,8 +1048,8 @@
         "dfc-b:country": "France",
         "dfc-b:postcode": "66000",
         "dfc-b:street": "1 Place de la Loge",
-        "dfc-b:longitude": "2.8954",
-        "dfc-b:latitude": "42.6976"
+        "dfc-b:longitude": "2.8949",
+        "dfc-b:latitude": "42.6986"
       }
     },
     {
@@ -1061,8 +1061,8 @@
         "dfc-b:country": "France",
         "dfc-b:postcode": "45000",
         "dfc-b:street": "1 Place du Martroi",
-        "dfc-b:longitude": "1.9039",
-        "dfc-b:latitude": "47.9029"
+        "dfc-b:longitude": "1.9043",
+        "dfc-b:latitude": "47.9025"
       }
     },
     {
@@ -1074,8 +1074,8 @@
         "dfc-b:country": "France",
         "dfc-b:postcode": "38000",
         "dfc-b:street": "1 Place Grenette",
-        "dfc-b:longitude": "5.7266",
-        "dfc-b:latitude": "45.1885"
+        "dfc-b:longitude": "5.7245",
+        "dfc-b:latitude": "45.1915"
       }
     },
     {
@@ -1087,8 +1087,8 @@
         "dfc-b:country": "France",
         "dfc-b:postcode": "33000",
         "dfc-b:street": "25 Rue du Loup",
-        "dfc-b:longitude": "-0.5783",
-        "dfc-b:latitude": "44.8368" 
+        "dfc-b:longitude": "-0.5774",
+        "dfc-b:latitude": "44.8378" 
       }
     },
     {
@@ -1100,8 +1100,8 @@
         "dfc-b:country": "France",
         "dfc-b:postcode": "06000",
         "dfc-b:street": "2 Boulevard Victor Hugo",
-        "dfc-b:longitude": "7.2705",
-        "dfc-b:latitude": "43.7015"
+        "dfc-b:longitude": "7.2619",
+        "dfc-b:latitude": "43.7009"
       }
     },
     {
@@ -1113,8 +1113,8 @@
         "dfc-b:country": "France",
         "dfc-b:postcode": "75002",
         "dfc-b:street": "10 Boulevard Montmartre",
-        "dfc-b:longitude": "2.3425",
-        "dfc-b:latitude": "48.8698"
+        "dfc-b:longitude": "2.3412",
+        "dfc-b:latitude": "48.8720"
       }
     },
     {
@@ -1126,8 +1126,8 @@
         "dfc-b:country": "France",
         "dfc-b:postcode": "31000",
         "dfc-b:street": "1 Place du Capitole",
-        "dfc-b:longitude": "1.4437",
-        "dfc-b:latitude": "43.6045"
+        "dfc-b:longitude": "1.4442",
+        "dfc-b:latitude": "43.6044"
       }
     },
     {
@@ -1139,8 +1139,8 @@
         "dfc-b:country": "France",
         "dfc-b:postcode": "44000",
         "dfc-b:street": "1 Rue de la Marne",
-        "dfc-b:longitude": "-1.5536",
-        "dfc-b:latitude": "47.2184"
+        "dfc-b:longitude": "-1.5534",
+        "dfc-b:latitude": "47.2172"
       }
     },
     {
@@ -1153,7 +1153,7 @@
         "dfc-b:postcode": "69001",
         "dfc-b:street": "1 Rue de la République",
         "dfc-b:longitude": "4.8357",
-        "dfc-b:latitude": "45.7640"
+        "dfc-b:latitude": "45.7675"
       }
     }
   ]
