@@ -1015,6 +1015,12 @@
       "dfc-b:hasReference": "suppliedProduct/item8-2"
     },
     {
+      "@id": "localizedProduct/localizedProductId9-2",
+      "@type": "dfc-b:LocalizedProduct",
+      "dfc-b:representedBy": "physicalProduct/physicalProductId9-2",
+      "dfc-b:hasReference": "suppliedProduct/item9-2"
+    },
+    {
       "@id": "localizedProduct/localizedProductId10-2",
       "@type": "dfc-b:LocalizedProduct",
       "dfc-b:representedBy": "physicalProduct/physicalProductId10-2",
