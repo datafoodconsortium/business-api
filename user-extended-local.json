@@ -1154,6 +1154,34 @@
           "dfc-b:longitude": "-0.4850272204227221",
           "dfc-b:latitude": "49.131679507443266"
         }
+      },
+      {
+        "@id": "pickupOption/pickupOptionId1-3",
+        "@type": "dfc-b:PickupOption",
+        "dfc-b:pickedUpAt": "physicalPlace/physicalPlaceId1-3",
+        "dfc-b:startDate": "2025-01-15T09:00:00+01:00",
+        "dfc-b:endDate": "2025-01-22T18:00:00+01:00"
+      },
+      {
+        "@id": "pickupOption/pickupOptionId2-3",
+        "@type": "dfc-b:PickupOption",
+        "dfc-b:pickedUpAt": "physicalPlace/physicalPlaceId2-3",
+        "dfc-b:startDate": "2025-01-18T10:00:00+01:00",
+        "dfc-b:endDate": "2025-01-25T17:00:00+01:00"
+      },
+      {
+        "@id": "pickupOption/pickupOptionId3-3",
+        "@type": "dfc-b:PickupOption",
+        "dfc-b:pickedUpAt": "physicalPlace/physicalPlaceId3-3",
+        "dfc-b:startDate": "2025-01-16T11:00:00+01:00",
+        "dfc-b:endDate": "2025-01-23T19:00:00+01:00"
+      },
+      {
+        "@id": "pickupOption/pickupOptionId4-3",
+        "@type": "dfc-b:PickupOption",
+        "dfc-b:pickedUpAt": "physicalPlace/physicalPlaceId4-3",
+        "dfc-b:startDate": "2025-01-17T10:00:00+01:00",
+        "dfc-b:endDate": "2025-01-24T18:00:00+01:00"
       }
     ]
   }
