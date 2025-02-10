@@ -922,7 +922,7 @@
         "@id": "realStock/realStockId1-3",
         "@type": "dfc-b:RealStock",
         "dfc-b:constitutes": "physicalProduct/physicalProductId1-3",
-        "dfc-b:isStoredIn": "physicalPlace/physicalPlaceId8-3"
+        "dfc-b:isStoredIn": "physicalPlace/physicalPlaceId4-3"
       },
       {
         "@id": "realStock/realStockId2-3",
