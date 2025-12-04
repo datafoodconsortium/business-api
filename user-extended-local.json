@@ -922,7 +922,7 @@
         "@id": "realStock/realStockId1-3",
         "@type": "dfc-b:RealStock",
         "dfc-b:constitutes": "physicalProduct/physicalProductId1-3",
-        "dfc-b:isStoredIn": "physicalPlace/physicalPlaceId4-3"
+        "dfc-b:isStoredIn": "physicalPlace/physicalPlaceId14-3"
       },
       {
         "@id": "realStock/realStockId2-3",
@@ -1144,6 +1144,19 @@
       },
       {
         "@id": "physicalPlace/physicalPlaceId13-3",
+        "@type": "dfc-b:PhysicalPlace",
+        "dfc-b:hasAddress": {
+          "@type": "dfc-b:Address",
+          "dfc-b:city": "Baron-sur-Odon",
+          "dfc-b:country": "France",
+          "dfc-b:postcode": "14210",
+          "dfc-b:street": "2 Chem. des Murailles",
+          "dfc-b:longitude": "-0.4850272204227221",
+          "dfc-b:latitude": "49.131679507443266"
+        }
+      },
+      {
+        "@id": "physicalPlace/physicalPlaceId14-3",
         "@type": "dfc-b:PhysicalPlace",
         "dfc-b:hasAddress": {
           "@type": "dfc-b:Address",
